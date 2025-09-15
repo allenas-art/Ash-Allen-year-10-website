@@ -6,8 +6,8 @@ p{
 font-size: 60px;
 } 
 Body{
-    margin: 5;
-     padding-top: 130px;    
+    margin: 0;
+     padding-top: 100px;   
       font-family: Arial, sans-serif;
     background-color: rgb(255, 255, 255)
 }
@@ -24,15 +24,20 @@ Body{
     font-size: 20px;       
 
 }
+.ImageInstruct{
+    font-size:15px;
+    padding: 20px;
+}
 .ImageTitle{
-    font-size:30px;
+    font-size:15px
 }
 .NavigationSection {
 background-color: rgb(19, 236, 171);
  font-size: 20px;
  display: flex;
  align-items: end;
-justify-content: space-between;
+justify-content: space-around;
+flex-wrap: wrap;
  width: 100%;
 }
 .PageNavigation {
@@ -49,7 +54,6 @@ width: 440px;
 
 }
 .JurassicImage{
-
 Height: 300px;
 width: 440px;
 }
@@ -57,6 +61,15 @@ width: 440px;
   height:300px ;
   width:440px;
 }
+.TriassicPage{
+
+    background-color: rgb(19, 236, 171);
+}
+.HerrerasaurusImage{
+    Height:300px;
+
+}
 .ImageCredits{
     Font-size: 10px;
+    padding: 5px;
 }
