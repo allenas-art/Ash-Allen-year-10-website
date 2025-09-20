@@ -3,35 +3,45 @@ h1{
 text-align:center;
 }
 p{
-font-size: 60px;
+font-size: 20px;
 } 
 Body{
     margin: 0;
-     padding-top: 100px;   
+     padding-top:150px;   
       font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(19, 236, 171)
 }
 .HeaderBox{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 115px;
-    background-color: rgb(19, 236, 171);
-    color: black;
+    height: 190px;
+    background-color: rgb(5, 118, 84);
+    color: rgb(255, 255, 255);
     text-align: center;  
-    padding: 20px;         
-    font-size: 20px;       
-
+    padding: 10px;         
+    font-size: 30px;       
+}
+.IntroPara{
+    
+    font-size: 50px ;
+    Padding:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 .ImageInstruct{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:15px;
     padding: 20px;
 }
 .ImageTitle{
-    font-size:15px
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px
 }
 .NavigationSection {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 background-color: rgb(19, 236, 171);
  font-size: 20px;
  display: flex;
@@ -41,6 +51,7 @@ flex-wrap: wrap;
  width: 100%;
 }
 .PageNavigation {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 background-color: rgb(19, 236, 171);
  font-size: 20px;
  display: flex;
@@ -49,27 +60,108 @@ justify-content: space-evenly;
  width: 100%;
 }
 .TriassicImage {
+    border-radius: 10px;
 Height: 300px;
 width: 440px;
 
 }
 .JurassicImage{
+     border-radius: 10px;
 Height: 300px;
 width: 440px;
 }
 .CretaceousImage{
+     border-radius: 10px;
   height:300px ;
   width:440px;
 }
 .TriassicPage{
+    align-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+Padding: 60px;
 
-    background-color: rgb(19, 236, 171);
 }
-.HerrerasaurusImage{
-    Height:300px;
-
+.JurassicPage{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    Padding: 60px;
 }
 .ImageCredits{
+    font-family: Arial, Helvetica, sans-serif;
     Font-size: 10px;
     padding: 5px;
 }
+.EverythingHerrerasaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingPlateosaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingCoelophysis{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingPeteinosaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingAllosaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+
+}
+.EverythingMamenchisaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingChunkingosaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingIcthyosaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingT-Rex{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingTherizinosaurus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingProtoceratops{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+.EverythingQuetzalcoatlus{
+    display:flex;
+    align-items: end;
+
+flex-direction: row;
+}
+
+
